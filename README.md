@@ -7,7 +7,7 @@ for Windows 10 Home
 1. Download `Docker Toolbox`  
 https://docs.docker.com/toolbox/toolbox_install_windows/
 
-2. Setup Docker Toolbox
+2. Install Docker Toolbox
 3. Open `Docker QuickStart Terminal`
 4. Wait for setup
 5. Setup will be completed if the following message is displayed
@@ -25,7 +25,7 @@ $
 ## Run wordpress
 
 ```
-docker-compose up -d
+$ docker-compose up -d
 ```
 
 Now you can see your WordPress site on http://192.168.99.100:8080
@@ -42,3 +42,4 @@ export DOCKER_HOST="tcp://192.168.99.100:2376"
 
 - https://hub.docker.com/_/wordpress/
 - https://qiita.com/azu369yu/items/e9415024e84c86a9e577
+- Enabling Hyper-V: http://ascii.jp/elem/000/000/913/913933/index-2.html
