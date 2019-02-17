@@ -25,6 +25,7 @@ $
 ## Run wordpress
 
 ```
+$ cd study-wordpress-docker-toolbox
 $ docker-compose up -d
 ```
 
